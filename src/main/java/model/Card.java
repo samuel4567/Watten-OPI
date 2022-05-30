@@ -4,7 +4,10 @@ public class Card {
     private Schlog schlog;
     private Forbe forbe;
 
-
+public Card(Schlog schlog,Forbe forbe){
+    this.schlog=schlog;
+    this.forbe=forbe;
+}
 
     public boolean equals(Card o){
         return this.getSchlog()==o.getSchlog() && this.getForbe()==o.getForbe();
