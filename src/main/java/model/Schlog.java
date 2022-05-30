@@ -20,4 +20,28 @@ public enum Schlog {
         return numVal;
     }
 
+    public static Schlog getNameByValue(int i) {
+        switch (i) {
+            case 7:
+                return SIEBMER;
+            case 8:
+                return OCHTER;
+            case 9:
+                return NEINER;
+            case 10:
+                return ZEHNER;
+            case 11:
+                return UNTER;
+            case 12:
+                return OBER;
+            case 13:
+                return KINIG;
+            case 14:
+                return ASS;
+                case 5:
+            case 6:
+                return WELLI;
+        }
+        return null;
     }
+}
